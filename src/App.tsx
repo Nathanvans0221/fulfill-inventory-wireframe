@@ -186,9 +186,9 @@ function App() {
             </Box>
 
             {/* Main Content Area */}
-            <Box sx={{ display: 'flex', flexGrow: 1, overflow: 'hidden' }}>
+            <Box sx={{ display: 'flex', flexGrow: 1, overflow: 'hidden', minHeight: 0 }}>
               {/* Table */}
-              <Box sx={{ flexGrow: 1, overflow: 'hidden', p: 2 }}>
+              <Box sx={{ flexGrow: 1, overflow: 'hidden', p: 2, display: 'flex', flexDirection: 'column' }}>
                 <InventoryTable
                   ref={tableRef}
                   category={activeTab}

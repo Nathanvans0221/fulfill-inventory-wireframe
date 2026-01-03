@@ -240,8 +240,9 @@ const InventoryTable = forwardRef<InventoryTableRef, InventoryTableProps>(
       <Box
         className="ag-theme-alpine"
         sx={{
-          height: '100%',
+          flex: 1,
           width: '100%',
+          minHeight: 400,
           '& .ag-header': {
             backgroundColor: '#F9FAFB',
           },
